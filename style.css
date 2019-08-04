@@ -1,0 +1,15 @@
+.display1, .display3 {
+  color:grey;
+}
+.display1 {
+  font-size:80px;
+}
+
+.display3 {
+  font-size:50px;
+}
+
+#imageJumbotron {
+  background: url("https://png.pngtree.com/back_origin_pic/03/59/98/0459a247ede9eebb039297541d775cd2.jpg");
+  color:white;
+}
