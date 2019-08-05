@@ -68,8 +68,11 @@ Adding in Bootstrap:
     - It makes positioning of html easier.
       a. ok...let's take on the grid system.
       b. Wrapping things in a container.
-      c.
-      
+      c. Grids
+      d. Responsive Grids
+      e. Responsive Margins
+      f. Responsive Visbility
+
     - Allows for easy mobile (responsive) development
 
 Web Design Workflow

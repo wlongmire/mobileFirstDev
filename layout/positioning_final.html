@@ -15,8 +15,8 @@
 </head>
 
 <body>
-  <!-- TEXT COLOR -->
   <h1 class="display3">Containers</h1>
+  <hr/>
   <h2 class="bg-light text-center">Text outside a container</h2>
 
   <div class="container">
@@ -55,6 +55,12 @@
   <br/>
 
   <h1 class="display3">Grids</h1>
+  <hr/>
+  <div class="d-flex flex-column align-items-center">
+    <img width="850px" src="https://image.slidesharecdn.com/dgio7dpmtfqonwla4zld-signature-98738dd5393327806ea2382269473808f57d47d1eca021c2f5a54e95d5b8ad3c-poli-151231000542/95/bootstrap-4-n00bz-36-638.jpg?cb=1451520617"
+    />
+    <h3 class="m-3 p-3 bg-dark text-white rounded">All layouts can be made from columns made from units of 12.</h3>
+  </div>
   <div class="container">
     <div class="row">
       <div class="col-4 bg-info text-light">
@@ -104,20 +110,6 @@
       </div>
     </div>
   </div>
-
-  <br/>
-  <h1 class="display3">Responsive Grids</h1>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12 col-md-6 col-lg-4 bg-info text-light">
-        column 1
-      </div>
-      <div class="col-sm-12 col-md-6 col-lg-8 bg-dark text-light">
-        column 2
-      </div>
-    </div>
-  </div>
-
   <br/>
   <h1 class="display3">Equal Width Columns</h1>
   <div class="container">
@@ -136,6 +128,60 @@
       </div>
     </div>
   </div>
+
+  <br/>
+  <h1 class="display3">Responsive Grids</h1>
+  <hr/>
+  <div class="d-flex flex-column align-items-center">
+    <img width="850px" src="https://www.geeksread.com/wp-content/uploads/2018/05/Bootstrap-Lesson-6-How-to-create-responsive-grid-system_SS3.jpg"
+    />
+    <h3 class="m-3 p-3 bg-dark text-white rounded">Different grid layouts can assigned for different screen sizes.</h3>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-4 p-4 bg-info text-light">
+        column 1
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-8 p-4 bg-dark text-light">
+        column 2
+      </div>
+    </div>
+  </div>
+
+  <br/>
+  <br/>
+
+  <div class="d-flex flex-column align-items-center">
+    <img width="500px" src="https://bootstrapcreative.com/wp-bc/wp-content/uploads/2016/11/Screen-Shot-2017-06-12-at-4.17.31-AM.png"
+    />
+    <h3 class="m-3 p-3 bg-dark text-white rounded">Here are all the avaliable screen sizes.</h3>
+  </div>
+
+
+  <h1 class="display3">Responsive Margins</h1>
+  <hr/>
+  <div class="container">
+    <div class="row">
+      <div class="bg-dark w-75 mx-auto text-center text-primary p-sm-2 p-md-3 p-lg-5">
+        CONTENT
+      </div>
+    </div>
+  </div>
+
+
+  <br/>
+  <br/>
+
+  <h1 class="display3">Responsive Visibility</h1>
+  <hr/>
+  <div class="container d-flex justify-content-center p-5">
+    <h2 class="d-none d-sm-block">SHOW WHEN BIG</h2>
+    <h2 class="d-block d-md-none">show when small</h2>
+  </div>
+
+
+
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo "
     crossorigin="anonymous "></script>
