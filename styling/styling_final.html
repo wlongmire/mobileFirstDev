@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="./../style.css" />
+  <style>
+    h5 {
+      border: 3px solid black;
+      width: 100px;
+      height: 100px;
+    }
+
+    #heightContainer {
+      height: 300px;
+      border: 1px solid grey;
+    }
+  </style>
+
+  <title>Positioning</title>
+</head>
+
+<body>
+  <h1 class="display1">Styling</h1>
+  <hr/>
+
+  <div class="container">
+    <br>
+    <br>
+
+    <!-- TEXT COLOR -->
+    <h1 class="display3">Text Color</h1>
+    <p class="text-primary">Primary Color</p>
+    <p class="text-success">Success Color</p>
+    <p class="text-info">Info Color</p>
+    <p class="text-warning">Warning Color</p>
+    <p class="text-danger">Danger Color</p>
+    <p class="text-dark">Dark Color</p>
+    <p class="text-white">White Color</p>
+    <p class="text-muted">Muted</p>
+
+    <p>
+      <!-- Make sure to put the class on the closest element effected-->
+      <a class="text-primary" href="#">Primary link</a>
+    </p>
+
+    <!-- BACKGROUND COLOR -->
+    <h1 class="display3">Background Color</h1>
+    <div class="bg-primary">Background Primary Color</div>
+    <div class="bg-success">Background Success Color</div>
+    <div class="bg-info">Background Info Color</div>
+    <div class="bg-warning">Background Warning Color</div>
+    <div class="bg-danger">Background Danger Color</div>
+    <div class="bg-dark">Background Dark Color</div>
+    <div class="bg-light">Background Light Color</div>
+    <div id="imageJumbotron" class="jumbotron">
+      <div class="bg-transparent">Background Transparent</div>
+    </div>
+
+    <br/>
+    <br/>
+    <!-- Padding -->
+    <h1 class="display3">Padding</h1>
+    <h1 class="bg-warning pb-1">Padding Bottom 1</h1>
+    <h1 class="bg-warning pb-2">Padding Bottom 2</h1>
+    <h1 class="bg-warning pb-3">Padding Bottom 3</h1>
+
+    <h1 class="bg-warning pt-4">Padding Top 4</h1>
+    <h1 class="bg-warning pt-5">Padding Top 5</h1>
+
+    <p>
+      <span class="bg-warning pr-5">Padding Right 5</span> dolor sit amet,
+      <span class="bg-warning pl-5">Padding Left 3 </span> elit. Voluptatum, optio.
+    </p>
+
+    <p>Lorem ipsum
+      <span class="bg-warning px-5">Padding Left & Right 5</span>, consectetur elit. Voluptatum, optio.</p>
+
+    <p class="bg-warning py-5">Padding Top & Bottom 5</p>
+
+    <h1 class="bg-warning p-5">Padding</h1>
+
+    <br/>
+    <br/>
+
+    <!-- Margins -->
+    <h1 class="display3">Margins</h1>
+    <h1 class="bg-success mb-1">Margin Bottom 1</h1>
+    <h1 class="bg-success mb-2">Margin Bottom 2</h1>
+    <h1 class="bg-success mb-3">Margin Bottom 3</h1>
+
+    <h1 class="bg-success mt-4">Margin Top 4</h1>
+    <h1 class="bg-success mt-5">Margin Top 5</h1>
+
+    <p>
+      <span class="bg-success mr-5">Margin Right 5</span> dolor sit amet,
+      <span class="bg-success ml-5">Margin Left 3 </span> elit. Voluptatum, optio.
+    </p>
+
+    <p>Lorem ipsum
+      <span class="bg-success mx-5">Margin Left & Right 5</span>, consectetur elit. Voluptatum, optio.</p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur elit. Voluptatum, optio.</p>
+    <p class="bg-success my-5">Margin Top & Bottom 5</p>
+    <p>Lorem ipsum dolor sit amet, consectetur elit. Voluptatum, optio.</p>
+
+    <h1 class="bg-success m-5">Margin</h1>
+
+    <br/>
+    <br/>
+    <!-- Width Sizing -->
+    <h1 class="display3">Width Sizing</h1>
+    <div class="bg-success p-3 w-25">Width 25%</div>
+    <div class="bg-success p-3 w-50">Width 50%</div>
+    <div class="bg-success p-3 w-75">Width 75%</div>
+    <div class="bg-success p-3 w-100">Width 100%</div>
+
+    <br/>
+    <br/>
+
+    <!-- Height Sizing -->
+    <h1 class="display3">Height Sizing</h1>
+    <div id="heightContainer">
+      <div class="bg-primary d-inline-block h-25">Height 25%</div>
+      <div class="bg-primary d-inline-block h-50">Height 50%</div>
+      <div class="bg-primary d-inline-block h-75">Height 75%</div>
+      <div class="bg-primary d-inline-block h-100">Height 100%</div>
+    </div>
+
+    <br>
+    <br>
+
+    <!-- BORDERS -->
+    <h1 class="display3">Border</h1>
+    <div class="p-3 mb-2 bg-light border border-primary rounded">Regular</div>
+    <div class="p-3 mb-2 bg-light border-top border-dark">Border Top</div>
+    <div class="p-3 mb-2 bg-light border-bottom border-success">Border Bottom</div>
+    <div class="p-3 mb-2 bg-light border-right border-info">Border Right</div>
+    <div class="p-3 mb-2 bg-light border-left border-danger">Border Left</div>
+
+    <br/>
+    <br/>
+    <!-- ALIGNMENT -->
+    <h1 class="display3">Alignment</h1>
+    <p class="text-center">Text aligned center</p>
+    <p class="text-right">Text aligned right</p>
+    <p class="text-left">Text aligned left</p>
+    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae asperiores dolorem accusamus dolor eligendi, unde adipisci
+      a odio, quas aperiam tempora earum delectus magnam quia veritatis in! Natus quibusdam dolores architecto magni rem!
+      Error repellat esse dolorem dolore neque odit rem non accusamus eligendi ab nesciunt dicta voluptatibus velit, vel
+      obcaecati quisquam optio reiciendis soluta tempora, voluptatum sapiente eos? Explicabo provident sit commodi blanditiis
+      assumenda dolor ex aliquid aut beatae porro necessitatibus eos, neque distinctio non amet nemo et! Ipsum, dolorum quis
+      at perferendis corporis iure aliquid illo, deserunt impedit, quod nam! Molestias atque voluptatem numquam veritatis
+      ex mollitia eveniet.</p>
+
+    <br>
+    <br>
+
+    <!-- TURN BLOCK TO INLINE -->
+    <h1 class="display3">Block and Inline</h1>
+    <h1 class="d-inline">Hello</h1>
+    <h1 class="d-inline">Goodbye</h1>
+
+    <br>
+    <br>
+
+    <h1 class="d-inline-block bg-primary p-3 w-50">Hello</h1>
+    <h1 class="d-inline-block bg-primary p-3">Goodbye</h1>
+
+    <br>
+    <br>
+
+    <!-- TURN INLINE TO BLOCK -->
+    <span class="d-block">Block</span>
+    <span class="d-block">Block</span>
+
+    <br>
+    <br>
+
+    <h1 class="display3">Fixed Behavior</h1>
+    <header class="fixed-top bg-dark p-3 text-primary">Fixed Top</header>
+    <footer class="fixed-bottom bg-dark p-3 text-primary">Fixed Bottom</footer>
+
+    <br/>
+    <br/>
+
+    <h1 class="display3">Horizontal Center</h1>
+    <div class="mx-auto">
+      <h1 class="text-center">Centered Div</h1>
+      </h1>
+    </div>
+
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo "
+    crossorigin="anonymous "></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js " integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49 "
+    crossorigin="anonymous "></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js " integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T "
+    crossorigin="anonymous "></script>
+</body>
+
+</html>
